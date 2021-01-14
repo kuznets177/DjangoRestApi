@@ -1,7 +1,5 @@
 from django.contrib import admin
 
-from django.contrib import admin
-
 # импортируем сюда все модели из models
 from .models import PollsDB, Questions, Answers, Users, UserAnswer
 
